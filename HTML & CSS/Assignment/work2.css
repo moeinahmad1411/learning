@@ -1,0 +1,194 @@
+header{
+    width: 1350px;
+    height: 7vh;
+    background-color: #ff7101;
+}
+
+#aa{
+    text-align: left;
+    color: white;
+    position: relative;
+    font-size: large;
+    left: 70px;
+    top: 7px;
+
+}
+#ab{
+    color: white;
+    text-align: center;
+}
+
+#aba{
+    position: relative;
+    top: 1px;
+
+}
+#abb{
+    position:relative;
+    left:20px;
+    top:1px;
+
+}
+#abc{
+    position:relative;
+    top:1px;
+    left:40px;
+}
+#abd{
+    position: relative;
+    left:60px;
+    top:1px;
+
+}
+#ac{
+    position: absolute;
+    left:1100px;
+    right: 15px;
+    top: 15px;
+}
+#aca{
+    position:relative;
+    top:10px;
+    height:25px;
+    width:25px;
+}
+#acb{
+    position:relative;
+    top:10px;
+    left:30px;
+    height:25px;
+    width:25px;
+}
+#acc{
+    position:relative;
+    top:10px;
+    left:60px;
+    height:25px;
+    width:25px;
+}
+
+#b{
+    background-color: #ecebed;
+    width:1350px;
+    height:15px;
+    font-size: small;
+}
+
+#c{
+    background-color: #26bfc6;
+    width:65vw;
+    height:35vh;
+    position:absolute;
+    top:100px;
+    left:250px;
+}
+#ca{
+    height: 25px;
+    width:25px;
+    Position:relative;
+    bottom:15px;
+    right:18px;
+
+}
+#cb{
+    height: 25px;
+    width:25px;
+    Position:relative;
+    bottom:15px;
+    left:850px;
+}
+
+#cc{
+    color: white;
+    position:relative;
+    top:10px;
+    left:30px;
+}
+
+#cd{
+    color: white;
+    position:relative;
+    top:30px;
+    left:30px;
+}
+
+#d{
+    background-color:#ecebed ;
+    width:1350px;
+    height:30vh;
+    position:absolute;
+    top:350px;
+}
+
+footer{
+    width: 1350px;
+    height: 70px;
+    position:absolute;
+    bottom:10px;
+    background-color: #ff7101;
+}
+
+#ea{
+    color: white;
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    text-align: right;
+
+}
+#eb{
+    color: white;
+    text-align: center;
+}
+
+#eba{
+    position: relative;
+    top:15px;
+
+}
+#ebb{
+    position:relative;
+    left:20px;
+    top:15px;
+
+}
+#ebc{
+    position:relative;
+    top:15px;
+    left:40px
+}
+#ebd{
+    position: relative;
+    left:60px;
+    top:15px;
+
+}
+#ec{
+    position: absolute;
+
+    left:60px;
+    top:12px;
+}
+#eca{
+    position:relative;
+    height:40px;
+    width:40px;
+}
+#ecb{
+    position:relative;
+    left:30px;
+    height:40px;
+    width:40px;
+}
+#ecc{
+    position:relative;
+    left:60px;
+    height:40px;
+    width:40px;
+}
+
+#da{
+    background-color: #f1f2f2;
+    width:40px;
+    height:30px;
+}

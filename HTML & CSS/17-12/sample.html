@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .parent{
+                display: grid;
+                grid-template-rows: 5;
+                grid-template-columns: 4;
+                grid-template:
+                "a1 a2 a2 a5"
+                "a1 a2 a2 a5"
+                "a1 a4 a4 a5"
+                "a1 a4 a4 a5"
+                "a3 a3 a3 a3";
+                width:70vw;
+                height:70vh;
+            }
+            .child:nth-child(1){
+                margin: 4px;
+                border: 2px solid green;
+                grid-area: a1; 
+            }
+            .child:nth-child(2){
+                margin: 4px;
+                border: 2px solid seagreen;
+                grid-area: a2; 
+            }
+            .child:nth-child(3){
+                margin: 4px;
+                border: 2px solid purple;
+                grid-area: a3; 
+            }
+            .child:nth-child(4){
+                margin: 4px;
+                border: 2px solid seagreen;
+                grid-area: a4; 
+            }
+            .child:nth-child(5){
+                margin: 4px;
+                border: 2px solid green;
+                grid-area: a5; 
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class='parent'>
+            <div class='child'></div>
+            <div class='child'></div>
+            <div class='child'></div>
+            <div class='child'></div>
+            <div class='child'></div>
+        </div>
+    </body>
+</html>

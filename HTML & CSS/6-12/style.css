@@ -1,0 +1,23 @@
+section {
+    color: darkkhaki;
+margin-left: 20px;
+margin-top: 50px;
+}
+html{
+    background-color: wheat;
+}
+.parent{
+    background-color: aqua;
+    width: 70vw;
+    max-width: 700px;
+    min-width: 400px;
+    height:40vh;
+    border :2px solid maroon;
+    padding: 2px;
+    border-radius: 20px;
+    box-shadow: 13px 15px 5px 1px black;
+}
+.parent img{
+    width: 25vw;
+    height: 15vh;
+}

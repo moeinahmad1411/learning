@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #car{
+                height:300px;
+                width:300px;
+                position:absolute;
+                right:0;
+                
+            }
+            @keyframes move {
+                from{
+                    right: 0;
+                }
+                20%{
+                    background-color: azure;
+                }
+                to{
+                    right:50%;
+                }
+
+                
+            }
+            #car:hover {
+                animation: move 5s ease-in infinite;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <img id='car' src='./../PNGPIX-COM-Blue-Lamborghini-Huracan-LP-610-4-Spyder-Side-View-Car-PNG-Image.png'>
+    </body>
+</html>
