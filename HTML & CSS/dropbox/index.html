@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        #mainMenu>li {
+            display: inline;
+            background: blue;
+            font-size: 80px;
+            padding: 5px;
+            cursor: pointer;
+            margin: 30px;
+        }
+
+        #mainMenu>li:hover {
+            opacity: 0.8;
+
+            /* display: list-item; */
+        }
+
+        #mainMenu>li:hover .box {
+
+            display: list-item;
+            position: absolute;
+        }
+
+        .box {
+            /* position: absolute; */
+            display: none;
+            list-style-type: none;
+
+            padding: 0px;
+
+            padding-top: 40px;
+
+        }
+
+        .menu2 .box {
+            padding-left: 250px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul id="mainMenu">
+            <li>
+                Cities
+
+                <ul class="box">
+                    <li>Faisalabad</li>
+                    <li>Lahore</li>
+                    <li>Karachi</li>
+                    <li>Quetta</li>
+                </ul>
+
+            </li>
+            <li class="menu2">
+                Courses
+
+                <ul class="box">
+                    <li>Web and Mobile</li>
+                    <li>Android Dev</li>
+                    <li>iOS Dev</li>
+                    <li>SEO</li>
+                </ul>
+
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+</body>
+
+</html>
